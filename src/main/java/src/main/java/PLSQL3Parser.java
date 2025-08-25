@@ -1,16 +1,14 @@
-// $ANTLR 3.3 Nov 30, 2010 12:50:56 PLSQL3.g 2014-06-04 15:33:41
-
-import org.antlr.stringtemplate.*;
-
+package src.main.java;// $ANTLR 3.3 Nov 30, 2010 12:50:56 PLSQL3.g 2014-06-04 15:33:41
 
 import org.antlr.runtime.*;
-import java.util.Stack;
-import java.util.List;
-import java.util.ArrayList;
-
 import org.antlr.stringtemplate.*;
 import org.antlr.stringtemplate.language.*;
+
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
+import java.util.Stack;
+
 public class PLSQL3Parser extends Parser {
     public static final String[] tokenNames = new String[] {
         "<invalid>", "<EOR>", "<DOWN>", "<UP>", "ID", "N", "WS", "'DECLARE'", "'BEGIN'", "'END'", "'LOOP'", "'IF'", "'THEN'", "'exit;'", "'END IF;'", "'END LOOP;'", "'CREATE OR REPLACE FUNCTION'", "'RETURN'", "';'", "'IS'", "'END;'", "'WHILE'", "'FOR'", "'in'", "'..'", "'CREATE OR REPLACE PROCEDURE'", "'AS'", "'ELSE'", "':='", "'number'", "'varchar'", "'float'", "'dbms_output.put_line('", "');'", "'SELECT'", "'INTO'", "'FROM'", "'='", "'();'", "'('", "'<'", "'>'", "'+'", "')'"
